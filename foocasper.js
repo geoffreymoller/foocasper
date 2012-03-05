@@ -6,7 +6,7 @@ var casper = require('casper').create({
 var args = casper.cli.args;
 var options = casper.cli.options;
 
-var URI = options.URI || 'http://localhost:8081/spec/browser/suite_runner.html';
+var URI = options.URI || 'http://localhost:5057/spec/browser/suite_runner.html';
 if(options.match){
   URI += '?match=' + options.match
 }
